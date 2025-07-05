@@ -1,0 +1,51 @@
+* {
+    margin: 0 45px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 120px;
+    background-color: rgb(88, 88, 88);
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+header h2, nav a {
+    color: white;
+}
+
+nav {height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 54px 0 0 0;
+    border: 10px;
+    background-color: rgb(11, 11, 11);
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+}
+
+section {
+    background-color: rgb(230, 229, 229);
+}
+
+aside h2, section h2 {
+    text-align: left;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(88, 88, 88);
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+}
