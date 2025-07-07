@@ -41,6 +41,7 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 0 60px;
+    max-width: fit-content;
 }
 
 h1 {
