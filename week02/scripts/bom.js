@@ -23,8 +23,8 @@ button.addEventListener('click', () => {
     
         deleteButton.addEventListener('click', () => {
             list.removeChild(li);
+            input.focus();
         });
     }
-
     input.focus();
 });
