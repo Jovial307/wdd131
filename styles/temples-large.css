@@ -1,0 +1,24 @@
+@media (min-width: 500px) {
+    section {
+        max-width: 900px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 18px;
+        place-items: center;
+    }
+
+    .navigation1 {
+        display: flex;
+    }
+
+    .navigation1 li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    #menu, .navigation {
+		display: none;
+	}
+
+}
