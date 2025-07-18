@@ -1,0 +1,146 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+header {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(16, 16, 112);
+    height: 81px;
+    align-items: center;
+}
+
+footer {
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    background-color: rgb(16, 16, 112);
+    height: 72px;
+    color: white;
+    align-content: center;
+}
+
+header h1 {
+    color: white;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+    border: none;
+	background-color: rgb(16, 16, 112);
+	color: #ded3d3;
+    align-self: right;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+.navigation1 {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+}
+
+.navigation1 a {
+    padding: 0 27px;
+    color: white;
+    text-decoration: none;
+    transition: .9s ease-in-out;
+    transition-property: all;
+}
+
+.navigation1 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.navigation li, .navigation1 {
+	display: none;
+}
+
+.navigation {
+    background-color: rgb(151, 151, 213);
+    /* position: absolute; */
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+    
+}
+
+.navigation a:hover,
+.navigation a:active {
+	color: blue;
+	background-color: blue;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+main {
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+figure {
+    width: auto;
+}
+
+figcaption { 
+    text-align: center;
+}
